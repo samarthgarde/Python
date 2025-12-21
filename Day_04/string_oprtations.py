@@ -86,7 +86,24 @@ print(first + " " + last)
 
 # f-string
 
+print(f"Hello from the {name}'s devops team. the {name}'s devops can handle any prod failure seamleasoly " )    # Formatted string literal
+
 name = "Samarth"
 age = 22
 
 print(f"My name is {name} and my age is {age}")
+
+
+text = "we are the so called \n \"Vikings\" \n from the north."
+
+print(text)
+print("It\'s a beautiful day!") # Escape Characters in strings
+
+# centre method
+fruits = ['apple', 'banana', 'cherry']
+
+x = fruits.count("cherry")
+print(x)
+print(name.center(120))
+
+
