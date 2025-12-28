@@ -1,4 +1,4 @@
-fruits = ["apple", "banana", "mango"]
+fruits = ["apple", "banana", "mango"]       # we will use the square brackets to define the list in python
 print(fruits)
 
 # List indexing
